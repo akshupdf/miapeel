@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { HiMenu, HiX } from 'react-icons/hi';
+import mia from "../images/mia.png";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -12,10 +13,12 @@ export default function Navbar() {
   return (
     <div className="lg:w-full flex justify-between items-center p-4 fixed z-30 bg-white shadow-xl w-full">
       {/* Logo */}
-      <div className="text-2xl font-sen cursor-pointer">
-        <h1>
-          Mia Peel <span className="text-lg">&#174;</span>
-        </h1>
+      <div className="">
+      <img
+ src={mia}
+ alt="mia"
+ className="w-[20vh] "
+ />
       </div>
 
       {/* Desktop Menu */}
