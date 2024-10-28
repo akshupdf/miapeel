@@ -10,12 +10,15 @@ import CaseStudy from "./Component/CaseStudy";
 import ContactUs from "./Component/Contact";
 import Safety from "./Component/Safety";
 import Training from "./Component/Training";
+import Footer from "./Component/Footer";
+import ScrollToTop from "./Component/Scroll";
 
 function App() {
   return (
     <div className="">
        <BrowserRouter>
        <Navbar />
+       <ScrollToTop />
     <Routes>
     <Route path="/" element={<Home />}></Route>
       <Route path="/about" element={<About />}></Route>
@@ -25,6 +28,7 @@ function App() {
       <Route path="/safety" element={<Safety />}></Route>
       <Route path="/training" element={<Training />}></Route>
     </Routes>
+    <Footer />
     </BrowserRouter>
     </div>
   );

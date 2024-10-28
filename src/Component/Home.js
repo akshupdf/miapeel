@@ -93,7 +93,7 @@ export default function Home() {
             </div>
             <div className="flex items-center space-x-4 cursor-pointer hover:text-neutral-600">
               <Users className="h-6 w-6" />
-              <span>Professional Training</span>
+              <span><Link to="/training">Professional Training</Link></span>
             </div>
          
           </div>
