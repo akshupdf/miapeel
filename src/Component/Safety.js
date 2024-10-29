@@ -3,14 +3,14 @@ import React from 'react'
 
 export default function Safety() {
   return (
-    <div className="min-h-screen bg-white pt-16 bg-no-repeat bg-[url(https://bioresscientia.com//uploads/journals/1653319467CCRS.jpg)]">
+    <div className="min-h-screen bg-white pt-16 bg-no-repeat">
  {/* Hero Section */}
  <section className="relative h-[90vh]  bg-no-repeat bg-cover ">
  {/* <div className="absolute  w-auto 
             min-w-full min-h-full max-w-none bg-black opacity-50 blur-xl"> </div> */}
  <div className="container  p-6 w-[50%] absolute top-[35vh] rounded-lg     ml-12 ">
  
- <h1 className="text-5xl font-bold   p-4 text-white " >Safety & Ethics</h1>
+ <h1 className="text-5xl font-bold   p-4  " >Safety & Ethics</h1>
 
  </div>
  </section>

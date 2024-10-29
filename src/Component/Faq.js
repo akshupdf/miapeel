@@ -58,7 +58,15 @@ function FAQAccordion() {
   ];
 
   return (
-    <div className="container mx-auto px-4 py-8">
+    <div className="container mx-auto px-4 py-8 pt-[15vh]">
+ <section className="relative h-[90vh]">
+ 
+ <div className="container  p-6 lg:w-[50%] absolute sm:top-[10vh]  lg:top-[25vh] rounded-lg ">
+ 
+ <h1 className="lg:text-5xl sm:text-3xl font-semibold   p-4  " >Frequently Asked Questions</h1>
+
+ </div>
+ </section>
       {faqs.map((section, sectionIndex) => (
         <div key={sectionIndex} className="mb-6">
           <h2 className="text-2xl font-bold mb-4">{section.category}</h2>

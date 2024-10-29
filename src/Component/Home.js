@@ -2,7 +2,6 @@ import React from 'react';
 import { ChevronRight, CircleDot, Shield, Users, Search, Star } from 'lucide-react';
 import peel from "../images/peel.mp4";
 import { Link } from 'react-router-dom';
-import FAQAccordion from './Faq';
 
 export default function Home() {
   return (
@@ -15,7 +14,7 @@ export default function Home() {
           className="absolute w-full h-full object-cover"
         ></video>
         <div className="absolute inset-0 bg-black opacity-50"></div>
-        <div className="container relative mx-auto px-6 py-32 text-white flex flex-col items-start justify-center h-full">
+        <div className="container relative mx-auto lg:px-6 py-32 text-white flex flex-col lg:items-start justify-center h-full">
           <h1 className="text-4xl md:text-5xl font-light mb-6 leading-tight">
             The First Clinical-Grade Intimate Peel<br />for Melanin-Rich Skin
           </h1>
@@ -82,7 +81,7 @@ export default function Home() {
           </button>
         </div>
       </section>
-    <FAQAccordion />
+
       {/* Quick Links */}
       <section className="py-8 md:py-16 bg-white">
         <div className="container mx-auto px-6">

@@ -5,10 +5,9 @@ export const AboutUsPage = () => {
  return (
  <div className="min-h-screen bg-white pt-16">
  {/* Hero Section */}
- <section className="relative h-[90vh]  bg-no-repeat bg-cover bg-[url(https://cdn.vectorstock.com/i/500p/22/65/multiethnic-nurse-characters-group-vector-33502265.jpg)]">
- <div className="absolute  w-auto 
-            min-w-full min-h-full max-w-none bg-black opacity-40 "> </div>
- <div className="container  p-6 lg:w-[50%] absolute sm:top-[30vh]  lg:top-[50vh] rounded-lg text-white    ml-12 ">
+ <section className="relative h-[90vh]">
+ 
+ <div className="container  p-6 lg:w-[50%] absolute sm:top-[10vh]  lg:top-[25vh] rounded-lg    ml-12 ">
  
  <h1 className="lg:text-5xl sm:text-3xl font-semibold   p-4  " >Pioneering Safe Intimate Care for Melanin-Rich Skin</h1>
  <p className="lg:text-xl  ml-4  ">
@@ -21,7 +20,7 @@ export const AboutUsPage = () => {
  <section className="py-20 bg-white">
  <div className="container mx-auto lg:px-6">
  <div className="grid grid-cols-1 md:grid-cols-2 gap-16">
- <div className='mt-[15vh]'>
+ <div className=''>
  <h2 className="text-3xl font-light mb-8">Our Journey</h2>
  <p className="text-lg text-neutral-600 mb-6">
  The development of Mia Peel represents a breakthrough in intimate skincare for melanin-rich skin. Our international team of specialists recognized a critical gap in the market: the absence of safe, effective intimate lightening treatments specifically formulated for darker skin tones.
@@ -32,7 +31,7 @@ export const AboutUsPage = () => {
  </div>
  <div className="bg-neutral-50 lg:p-8 sm:p-2">
  <img
- src="https://www.iadr.org/sites/default/files/styles/50_50/public/2021-09/blog_post_diversity_0.png?itok=l4oktgRW"
+ src=""
  alt="Laboratory research team"
  className="w-full h-auto mb-4"
  />
@@ -125,7 +124,7 @@ export const AboutUsPage = () => {
  <div className="container mx-auto lg:px-6">
 
  <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
- <div  className='mt-[15vh]'>
+ <div  className='mt-[4vh]'>
  <h2 className="text-3xl font-light mb-4">Our Research Process</h2>
  <h3 className="text-xl font-medium mb-4">Phase 1: Formula Development</h3>
  <p className="text-neutral-600 mb-8">
@@ -142,7 +141,7 @@ export const AboutUsPage = () => {
  </div>
  <div className="bg-white lg:p-8">
  <img
- src="https://cdn.shopify.com/s/files/1/0543/0847/0961/files/Green_View_-_Factory_FFP2_480x480.png?v=1614806122"
+ src=""
  alt="Research timeline"
  className="w-full h-auto opacity-70"
  />
@@ -152,7 +151,7 @@ export const AboutUsPage = () => {
  </section>
 
  <div className="container mx-auto lg:px-6 grid grid-cols-1 md:grid-cols-2 gap-16 p-8">
- <div className='mt-[15vh]'>
+ <div className='mt-[4vh]'>
  <h2 className="text-3xl font-light mb-8">Breakthrough Formula</h2>
  <p className="text-lg text-neutral-600 mb-6">
  Our proprietary blend combines naturally derived brightening agents with protective antioxidants, specifically calibrated for the delicate intimate area of melanin-rich skin. The formula works by:</p>
@@ -172,7 +171,7 @@ export const AboutUsPage = () => {
 
  </div>
  </div>
- <div className=" container mx-auto lg:px-6 grid grid-cols-1 md:grid-cols-2 gap-16 p-8">
+ <div className="bg-neutral-50 container mx-auto lg:px-6 grid grid-cols-1 md:grid-cols-2 gap-16 p-8">
  <div className='mt-[15vh]'>
  <h2 className="text-3xl font-light mb-8">Clinical Validation</h2>
   <ul className="text-lg text-neutral-600 list-disc">
@@ -182,14 +181,14 @@ export const AboutUsPage = () => {
  <li>pH-balanced for intimate areas</li>
   </ul>
  </div>
- {/* <div className="bg-neutral-50 p-8">
+ <div className="bg-white p-8">
  <img
- src="https://www.iadr.org/sites/default/files/styles/50_50/public/2021-09/blog_post_diversity_0.png?itok=l4oktgRW"
+ src="https://img.freepik.com/premium-photo/flasks-measuring-beaker-science-experiment-laboratory-isolated_34435-3744.jpg"
  alt="Laboratory research team"
  className="w-full h-auto mb-4"
  />
 
- </div> */}
+ </div>
  </div>
  </div>
  );

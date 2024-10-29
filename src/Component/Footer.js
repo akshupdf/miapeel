@@ -4,13 +4,13 @@ import mia from "../images/mia.png";
 
 const Footer = () => {
   return (
-    <div className="bg-white pt-16 ">
+    <div className="bg-white pt-16 lg:p-0 sm:p-8">
       {/* Newsletter Section */}
-      <div className="max-w-6xl mx-auto px-4 mb-16 flex lg:flex-row sm:flex-col">
+      <div className="max-w-7xl mx-auto px-4 mb-16 flex lg:flex-row sm:flex-col">
      
 
         {/* Footer Links Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 lg:w-[50%]">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 lg:w-[80%] ">
           {/* Customer Service */}
           <div>
           <img
@@ -18,10 +18,15 @@ const Footer = () => {
  alt="mia"
  className="w-[30vh] "
  />
+  <ul className="text-lg w-[30vh] ">
+ <li>Email : info@miapeel.co</li>
+ <li>Instagram : @_miapeel</li>
+ <li>Contact No: 074982276752</li>
+  </ul>
           </div>
 
           {/* Company */}
-          <div >
+          <div className='lg:ml-8 mt-8' >
             <h3 className="text-gray-800 font-medium mb-4">Company</h3>
             <ul className="space-y-2">
             {/* <li className="text-gray-600 hover:text-gray-800"><Link to="/">Home</Link></li> */}
@@ -34,7 +39,7 @@ const Footer = () => {
           </div>
 
           {/* Social */}
-          <div>
+          <div className=' mt-8'>
             <h3 className="text-gray-800 font-medium mb-4">Social</h3>
             <ul className="space-y-2">
               <li><a href="www.x.com" className="text-gray-600 hover:text-gray-800">Twitter</a></li>
@@ -44,7 +49,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="mb-12 lg:w-[50%] lg:mt-0 sm:mt-8">
+        <div className="mb-12 lg:w-[50%] mt-8">
           <h3 className="text-gray-800 font-medium mb-4">Subscribe to our communications</h3>
           <div className="flex max-w-md">
             <input 

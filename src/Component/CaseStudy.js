@@ -3,12 +3,12 @@ import TreatmentReports from './Treatment'
 
 export default function CaseStudy() {
   return (
-    <div className="min-h-screen bg-white pt-16 bg-no-repeat bg-[url(https://bioresscientia.com//uploads/journals/1653319467CCRS.jpg)]">
+    <div className="min-h-screen  bg-white bg-no-repeat ">
  {/* Hero Section */}
- <section className="relative h-[90vh]  bg-no-repeat bg-cover ">
+ <section className="relative bg-fixed h-screen bg-cover bg-[url(https://bioresscientia.com//uploads/journals/1653319467CCRS.jpg)] ">
  {/* <div className="absolute  w-auto 
             min-w-full min-h-full max-w-none bg-black opacity-50 blur-xl"> </div> */}
- <div className="container  p-6 w-[50%] absolute top-[35vh] rounded-lg     ml-12 ">
+ <div className="container  p-6 w-[50%] absolute top-[45vh] rounded-lg     ml-12 ">
  
  <h1 className="text-5xl font-bold   p-4 text-white " >Case Studies</h1>
 
@@ -16,8 +16,11 @@ export default function CaseStudy() {
  </section>
 
  {/* Development Journey */}
- <section className="py-20 bg-white">
+ <section className=" bg-white">
+
  <div className="container mx-auto lg:px-6 ">
+ <h2 className="text-4xl font-semibold m-8">Client Testimonials</h2>
+ <TreatmentReports />
  <div className="grid grid-cols-1 md:grid-cols-2 gap-16">
  <div className='mt-[15vh]'>
  <h2 className="text-3xl font-light mb-8">Clinical Study Results</h2>
@@ -39,7 +42,7 @@ export default function CaseStudy() {
 
  </div>
  </div>
- <h2 className="text-3xl font-light mb-8">Client Testimonials</h2>
+
  {/* <div className="grid grid-cols-1 md:grid-cols-2 gap-16">
  <div className='mt-[15vh]'>
  
@@ -61,8 +64,10 @@ export default function CaseStudy() {
  </p>
  </div>
  </div> */}
-<TreatmentReports />
+
  </div>
- </section></div>
+ </section>
+ 
+ </div>
   )
 }

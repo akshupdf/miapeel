@@ -12,6 +12,8 @@ import Safety from "./Component/Safety";
 import Training from "./Component/Training";
 import Footer from "./Component/Footer";
 import ScrollToTop from "./Component/Scroll";
+import FAQAccordion from "./Component/Faq";
+import IngredientsSection from "./Component/Product";
 
 function App() {
   return (
@@ -27,6 +29,8 @@ function App() {
       <Route path="/contact" element={<ContactUs />}></Route>
       <Route path="/safety" element={<Safety />}></Route>
       <Route path="/training" element={<Training />}></Route>
+      <Route path="/faq" element={<FAQAccordion />}></Route>
+      <Route path="/products" element={<IngredientsSection />}></Route>
     </Routes>
     <Footer />
     </BrowserRouter>
