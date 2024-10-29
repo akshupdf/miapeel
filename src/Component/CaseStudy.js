@@ -35,8 +35,8 @@ export default function CaseStudy() {
  </div>
  <div className="bg-neutral-50 p-8">
  <img
- src="https://www.iadr.org/sites/default/files/styles/50_50/public/2021-09/blog_post_diversity_0.png?itok=l4oktgRW"
- alt="Laboratory research team"
+ src=""
+ alt="clinical study"
  className="w-full h-auto mb-4 rounded-lg"
  />
 
@@ -64,6 +64,43 @@ export default function CaseStudy() {
  </p>
  </div>
  </div> */}
+
+<section className="py-8 bg-neutral-50 mt-[10vh] p-4">
+        <div className="container mx-auto ">
+         
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div className="bg-white p-6 md:p-8 rounded-xl shadow-lg">
+            <div className=''>
+ <h2 className="text-3xl font-light mb-8">Our Commitment to Safety</h2>
+ <p className="text-lg text-neutral-600 mb-6">
+ Every aspect of Mia Peel has been developed with safety as the primary concern: </p>
+ <ul className="text-lg text-neutral-600 list-disc">
+ <li>Dermatologist-tested formula</li>
+ <li>Extensive clinical trials</li>
+ <li>Regular safety assessments</li>
+ <li>Strict manufacturing standards</li>
+  </ul>
+ </div>
+            </div>
+            <div className="bg-white p-6 md:p-8 rounded-xl shadow-lg">
+            <div className=''>
+ <h2 className="text-3xl font-light mb-8">Ethical Development</h2>
+ <p className="text-lg text-neutral-600 mb-6">
+ We believe in ethical skincare development: </p>
+ <ul className="text-lg text-neutral-600 list-disc">
+ <li>No animal testing</li>
+ <li>Sustainable ingredients</li>
+ <li>Transparent manufacturing</li>
+ <li>Inclusive research practices</li>
+  </ul>
+ </div>
+            </div>
+          </div>
+     
+        </div>
+      </section>
+
+
 
  </div>
  </section>
