@@ -9,7 +9,7 @@ export const AboutUsPage = () => {
  {/* Hero Section */}
  <section className="relative h-[100vh] bg-no-repeat bg-cover" style={{backgroundImage : `url(${skin})`}} >
   <div className="absolute inset-0 bg-black opacity-20"></div>
- <div className="container  p-6 lg:w-[50%] absolute sm:top-[10vh]  lg:top-[55vh] rounded-lg text-white   ml-12 ">
+ <div className="container  p-6 lg:w-[50%] absolute sm:top-[10vh]  lg:top-[55vh] rounded-lg text-white   lg:ml-12 sm:ml-0 ">
  
  <h1 className="lg:text-5xl sm:text-3xl font-semibold   p-4  " >Pioneering Safe Intimate Care for Melanin-Rich Skin</h1>
  <p className="lg:text-xl  ml-4  ">
@@ -19,10 +19,10 @@ export const AboutUsPage = () => {
  </section>
 
  {/* Development Journey */}
- <section className="py-20 bg-white">
+ <section className="lg:py-20 sm:py-2 bg-white">
  <div className="container mx-auto lg:px-6">
  <div className="grid grid-cols-1 md:grid-cols-2 gap-16">
- <div className='mt-[20vh]'>
+ <div className='lg:mt-[20vh] sm:mt-8'>
  <h2 className="text-3xl font-light mb-8">Our Journey</h2>
  <p className="text-lg text-neutral-600 mb-6">
  The development of Mia Peel represents a breakthrough in intimate skincare for melanin-rich skin. Our international team of specialists recognized a critical gap in the market: the absence of safe, effective intimate lightening treatments specifically formulated for darker skin tones.
@@ -74,7 +74,7 @@ export const AboutUsPage = () => {
  </section>
 
  {/* Medical Team */}
- <section className="py-20 bg-white">
+ <section className="lg:py-20 sm:py-2 bg-white">
  <div className="container mx-auto lg:px-6">
  <h2 className="text-3xl font-light mb-12 text-center">Our Medical Advisory Board</h2>
  <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -127,16 +127,16 @@ export const AboutUsPage = () => {
 
  <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
  <div  className='mt-[4vh]'>
- <h2 className="text-3xl font-light mb-4">Our Research Process</h2>
- <h3 className="text-xl font-medium mb-4">Phase 1: Formula Development</h3>
- <p className="text-neutral-600 mb-8">
+ <h2 className="lg:text-3xl sm:text-lg font-light sm:mb-2 lg:mb-4">Our Research Process</h2>
+ <h3 className="lg:text-xl sm:text-sm font-medium sm:mb-2 lg:mb-4">Phase 1: Formula Development</h3>
+ <p className="text-neutral-600 sm:mb-2 lg:mb-8">
  Our team spent 8 months developing and refining the initial formula, focusing on ingredients proven safe and effective for melanin-rich skin.
  </p>
- <h3 className="text-xl font-medium mb-4">Phase 2: Clinical Testing</h3>
- <p className="text-neutral-600 mb-8">
+ <h3 className="lg:text-xl sm:text-sm font-medium sm:mb-2 lg:mb-4">Phase 2: Clinical Testing</h3>
+ <p className="text-neutral-600 lg:mb-8 sm:mb-2">
  6 months of rigorous testing across multiple skin types (Fitzpatrick IV-VI) to ensure safety and efficacy.
  </p>
- <h3 className="text-xl font-medium mb-4">Phase 3: Refinement</h3>
+ <h3 className="lg:text-xl sm:text-sm font-medium sm:mb-2 lg:mb-4">Phase 3: Refinement</h3>
  <p className="text-neutral-600">
  4 months of formula optimization based on clinical results and participant feedback.
  </p>
@@ -145,19 +145,19 @@ export const AboutUsPage = () => {
  <img
  src="https://media.licdn.com/dms/image/D4E12AQFo1e5AquG6lw/article-cover_image-shrink_720_1280/0/1695743592292?e=2147483647&v=beta&t=yBpkmLp_CZnu0TuVrfjEcTNG2yZTD-Z55NiqG8Kcpnw"
  alt="Research timeline"
- className="w-full h-[70vh]"
+ className="w-full lg:h-[70vh] sm:h-[20vh]"
  />
  </div>
  </div>
  </div>
  </section>
 
- <div className="container mx-auto lg:px-6 grid grid-cols-1 md:grid-cols-2 gap-16 p-8">
+ <div className="container mx-auto lg:px-6 grid grid-cols-1 md:grid-cols-2 gap-16 sm:p-2 lg:p-8">
  <div className='mt-[4vh]'>
- <h2 className="text-3xl font-light mb-8">Breakthrough Formula</h2>
- <p className="text-lg text-neutral-600 mb-6">
+ <h2 className="lg:text-3xl sm:text-lg font-light mb-8">Breakthrough Formula</h2>
+ <p className="lg:text-lg sm:text-sm text-neutral-600 mb-6">
  Our proprietary blend combines naturally derived brightening agents with protective antioxidants, specifically calibrated for the delicate intimate area of melanin-rich skin. The formula works by:</p>
- <ul className="text-lg text-neutral-600 list-disc">
+ <ul className="lg:text-lg sm:text-sm text-neutral-600 list-disc">
  <li>Gently exfoliating dead skin cells</li>
  <li>Supporting natural skin renewal</li>
  <li>Protecting against hyperpigmentation</li>
@@ -173,10 +173,10 @@ export const AboutUsPage = () => {
 
  </div>
  </div>
- <div className="bg-white container mx-auto lg:px-6 grid grid-cols-1 md:grid-cols-2 gap-16 p-8">
- <div className='mt-[15vh]'>
- <h2 className="text-3xl font-light mb-8">Clinical Validation</h2>
-  <ul className="text-lg text-neutral-600 list-disc">
+ <div className="bg-white container mx-auto lg:px-6 grid grid-cols-1 md:grid-cols-2 gap-16 sm:p-2 lg:p-8">
+ <div className='lg:mt-[15vh]'>
+ <h2 className="lg:text-3xl sm:text-lg font-light mb-8">Clinical Validation</h2>
+  <ul className="lg:text-lg sm:text-sm text-neutral-600 list-disc">
  <li>Developed in collaboration with leading dermatologists</li>
  <li>Tested on diverse skin types (Fitzpatrick IV-VI)</li>
  <li>Non-irritating formula verified through sensitivity testing</li>

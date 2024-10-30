@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { ChevronDown, ChevronUp } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 const FAQItem = ({ question, answer, isOpen, onClick }) => {
   return (
@@ -157,7 +158,7 @@ const FAQPage = () => {
             Our team is here to help you with any additional questions you may have about Mia Peel treatments.
           </p>
           <button className="bg-neutral-900 text-white px-8 py-4 hover:bg-neutral-800 transition">
-            Contact Us
+           <Link to="/contact" > Contact Us</Link> 
           </button>
         </div>
       </section>

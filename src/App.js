@@ -24,15 +24,15 @@ import ContactPage from "./Component/Contactus";
 function App() {
   return (
     <div className="">
-     <Navbar />
-     <Home />
+     {/* <Navbar /> */}
+     {/* <Home />
      <ProductPage />
      <AboutUsPage />
      <CaseStudiesPage />
      <FAQPage />
      <TrainingComingSoon />
-     <ContactPage />
-       {/* <BrowserRouter>
+     <ContactPage /> */}
+       <BrowserRouter>
        <Navbar />
        <ScrollToTop />
     <Routes>
@@ -48,7 +48,7 @@ function App() {
       <Route path="/file" element={<ClinicalAnalysis />}></Route>
     </Routes>
     <Footer />
-    </BrowserRouter> */}
+    </BrowserRouter>
     </div>
   );
 }

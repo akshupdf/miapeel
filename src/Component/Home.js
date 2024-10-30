@@ -1,7 +1,7 @@
 import React from 'react';
 import { ChevronRight, CircleDot, Shield, Users, Search, Star } from 'lucide-react';
 import peel from "../images/peel.mp4";
-import { Link } from 'react-scroll';
+import { Link } from 'react-router-dom';
 
 export const Home = () =>  {
   return (
@@ -22,8 +22,8 @@ export const Home = () =>  {
             Scientifically formulated for the unique needs of brown skin.
             A revolutionary approach to intimate skincare, backed by dermatological research.
           </p>
-          <button className="bg-neutral-900 text-white px-6 md:px-8 py-3 md:py-4 rounded-none hover:bg-neutral-800 transition">
-            Find a Clinic Near You
+          <button className="bg-neutral-900 hover:bg0 text-white px-6 md:px-8 py-3 md:py-4 rounded-none hover:bg-neutral-800 transition">
+          <a href="https://melaclinic.co/" target='_blank' className=" ">    Find a Clinic Near You </a>
           </button>
         </div>
       </section>
@@ -88,7 +88,7 @@ export const Home = () =>  {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="flex items-center space-x-4 cursor-pointer hover:text-neutral-600">
               <Search className="h-6 w-6" />
-              <span>Find a Clinic</span>
+              <span> <a href="https://melaclinic.co/" target='_blank' className=" "> Find a Clinic</a></span>
             </div>
             <div className="flex items-center space-x-4 cursor-pointer hover:text-neutral-600">
               <Users className="h-6 w-6" />
