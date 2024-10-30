@@ -3,6 +3,8 @@ import { Clock, Users, CircleDot, Globe } from 'lucide-react';
 import skin from "../images/skin.jpg"
 import lab from "../images/office.jpg"
 
+import SciencePage from './Science';
+
 export const AboutUsPage = () => {
  return (
  <div className="min-h-screen bg-white pt-16" name="about">
@@ -20,7 +22,7 @@ export const AboutUsPage = () => {
 
  {/* Development Journey */}
  <section className="lg:py-20 sm:py-2 bg-white">
- <div className="container mx-auto lg:px-6">
+ <div className="lg:container sm:p-4 mx-auto lg:px-6">
  <div className="grid grid-cols-1 md:grid-cols-2 gap-16">
  <div className='lg:mt-[20vh] sm:mt-8'>
  <h2 className="text-3xl font-light mb-8">Our Journey</h2>
@@ -75,7 +77,7 @@ export const AboutUsPage = () => {
 
  {/* Medical Team */}
  <section className="lg:py-20 sm:py-2 bg-white">
- <div className="container mx-auto lg:px-6">
+ <div className="lg:container sm:p-4 mx-auto lg:px-6">
  <h2 className="text-3xl font-light mb-12 text-center">Our Medical Advisory Board</h2>
  <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
  {/* Expert 1 */}
@@ -122,7 +124,8 @@ export const AboutUsPage = () => {
  </section>
 
  {/* Research Process */}
- <section className="py-10 bg-white">
+ <SciencePage />
+ {/* <section className="py-10 bg-white">
  <div className="container mx-auto lg:px-6">
 
  <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
@@ -191,7 +194,8 @@ export const AboutUsPage = () => {
  />
 
  </div>
- </div>
+
+ </div> */}
  </div>
  );
 };

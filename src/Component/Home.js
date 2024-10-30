@@ -8,25 +8,29 @@ export const Home = () =>  {
     <div className="min-h-screen bg-white" name="home">
       {/* Hero Section */}
       <section className="h-screen relative">
-        <video
-          src={peel}
-          autoPlay loop muted
-          className="absolute w-full h-full object-cover"
-        ></video>
-        <div className="absolute inset-0 bg-black opacity-50"></div>
-        <div className="container relative mx-auto lg:px-6 py-32 text-white flex flex-col lg:items-start justify-center h-full">
-          <h1 className="text-4xl md:text-5xl font-light mb-6 leading-tight">
-            The First Clinical-Grade Intimate Peel<br />for Melanin-Rich Skin
-          </h1>
-          <p className="text-lg md:text-xl mb-8 max-w-2xl">
-            Scientifically formulated for the unique needs of brown skin.
-            A revolutionary approach to intimate skincare, backed by dermatological research.
-          </p>
-          <button className="bg-neutral-900 hover:bg0 text-white px-6 md:px-8 py-3 md:py-4 rounded-none hover:bg-neutral-800 transition">
-          <a href="https://melaclinic.co/" target='_blank' className=" ">    Find a Clinic Near You </a>
-          </button>
-        </div>
-      </section>
+  <video
+    src={peel}
+    autoPlay
+    loop
+    muted
+    playsInline
+    className="absolute w-full h-full object-cover hidden sm:block"
+  ></video>
+  <div className="absolute inset-0 bg-black opacity-50"></div>
+  <div className="container relative mx-auto lg:px-6 py-32 text-white flex flex-col lg:items-start justify-center h-full">
+    <h1 className="text-4xl md:text-5xl font-light mb-6 leading-tight">
+      The First Clinical-Grade Intimate Peel<br />for Melanin-Rich Skin
+    </h1>
+    <p className="text-lg md:text-xl mb-8 max-w-2xl">
+      Scientifically formulated for the unique needs of brown skin.
+      A revolutionary approach to intimate skincare, backed by dermatological research.
+    </p>
+    <button className="bg-neutral-900 hover:bg0 text-white px-6 md:px-8 py-3 md:py-4 rounded-none hover:bg-neutral-800 transition">
+      <a href="https://melaclinic.co/" target='_blank' className="">Find a Clinic Near You</a>
+    </button>
+  </div>
+</section>
+
 
       {/* Scientific Backing Section */}
       <section className="py-16 md:py-32 bg-white">
