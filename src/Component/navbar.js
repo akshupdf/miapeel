@@ -13,11 +13,11 @@ export default function Navbar() {
   return (
     <div className="lg:w-full flex justify-between items-center px-4 py-2 fixed z-30 bg-white shadow-xl w-full">
       {/* Logo */}
-      <div className="">
+      <div className="px-2">
       <img
  src={mia}
  alt="mia"
- className="w-[20vh]   "
+ className="w-[18vh]   "
  />
  {/* <h1 className='text-[24px] font-[200] font-sen'>mia peel <span className='absolute px-1 rounded-full  border-black border text-[10px] ml-1'>R</span></h1> */}
       </div>

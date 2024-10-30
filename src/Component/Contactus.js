@@ -1,22 +1,38 @@
 import React, { useState } from 'react';
 import { Mail, Phone, MapPin, Clock, Users, MessageSquare } from 'lucide-react';
 
+
+
 const ContactPage = () => {
-  const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    phone: '',
-    enquiryType: '',
-    message: '',
-  });
+
+  const generateMailtoLink = (name, company, email, phone, message) => {
+    const subject = encodeURIComponent("Contact Form Submission");
+    const body = encodeURIComponent(`Name: ${name}\nCompany: ${company}\nEmail: ${email}\nPhone: ${phone}\nMessage: ${message}`);
+    return `mailto:${email}?subject=${subject}&body=${body}`;
+};
+
+  // const [formData, setFormData] = useState({
+  //   name: '',
+  //   email: '',
+  //   phone: '',
+  //   enquiryType: '',
+  //   message: '',
+  // });
+
+  const [name, setName] = useState('');
+  const [lastName, setlastName] = useState('');
+  const [email, setEmail] = useState('');
+  const [phone, setPhone] = useState('');
+  const [message, setMessage] = useState('');
 
   const [submitted, setSubmitted] = useState(false);
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    setSubmitted(true);
-    // Handle form submission logic here
-  };
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    const mailtoLink = generateMailtoLink(name, lastName, email, phone, message);
+    window.location.href = mailtoLink;
+    setSubmitted(true)
+};
 
   return (
     <div className="min-h-screen bg-white" name="contact">
@@ -87,8 +103,8 @@ const ContactPage = () => {
                         type="text"
                         className="w-full p-3 border border-neutral-300 focus:outline-none focus:border-neutral-900"
                         required
-                        value={formData.name}
-                        onChange={(e) => setFormData({...formData, name: e.target.value})}
+                        value={name}
+                        onChange={(e) => setName(e.target.value)}
                       />
                     </div>
                     <div>
@@ -97,8 +113,8 @@ const ContactPage = () => {
                         type="email"
                         className="w-full p-3 border border-neutral-300 focus:outline-none focus:border-neutral-900"
                         required
-                        value={formData.email}
-                        onChange={(e) => setFormData({...formData, email: e.target.value})}
+                        value={email}
+                        onChange={(e) => setEmail(e.target.value)}
                       />
                     </div>
                   </div>
@@ -109,8 +125,8 @@ const ContactPage = () => {
                       <input
                         type="tel"
                         className="w-full p-3 border border-neutral-300 focus:outline-none focus:border-neutral-900"
-                        value={formData.phone}
-                        onChange={(e) => setFormData({...formData, phone: e.target.value})}
+                        value={phone}
+                                        onChange={(e) => setPhone(e.target.value)}
                       />
                     </div>
                     <div>
@@ -118,8 +134,8 @@ const ContactPage = () => {
                       <select
                         className="w-full p-3 border border-neutral-300 focus:outline-none focus:border-neutral-900"
                         required
-                        value={formData.enquiryType}
-                        onChange={(e) => setFormData({...formData, enquiryType: e.target.value})}
+                        value={lastName}
+                        onChange={(e) => setlastName(e.target.value)}
                       >
                         <option value="">Select an option</option>
                         <option value="treatment">Treatment Information</option>
@@ -136,8 +152,8 @@ const ContactPage = () => {
                     <textarea
                       className="w-full p-3 border border-neutral-300 focus:outline-none focus:border-neutral-900 h-32"
                       required
-                      value={formData.message}
-                      onChange={(e) => setFormData({...formData, message: e.target.value})}
+                      value={message}
+                      onChange={(e) => setMessage(e.target.value)}
                     ></textarea>
                   </div>
 
