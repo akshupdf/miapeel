@@ -1,13 +1,15 @@
 import React from 'react';
 import { Clock, Users, CircleDot, Globe } from 'lucide-react';
+import skin from "../images/skin.jpg"
+import lab from "../images/office.jpg"
 
 export const AboutUsPage = () => {
  return (
- <div className="min-h-screen bg-white pt-16">
+ <div className="min-h-screen bg-white pt-16" name="about">
  {/* Hero Section */}
- <section className="relative h-[90vh]">
- 
- <div className="container  p-6 lg:w-[50%] absolute sm:top-[10vh]  lg:top-[25vh] rounded-lg    ml-12 ">
+ <section className="relative h-[100vh] bg-no-repeat bg-cover" style={{backgroundImage : `url(${skin})`}} >
+  <div className="absolute inset-0 bg-black opacity-20"></div>
+ <div className="container  p-6 lg:w-[50%] absolute sm:top-[10vh]  lg:top-[55vh] rounded-lg text-white   ml-12 ">
  
  <h1 className="lg:text-5xl sm:text-3xl font-semibold   p-4  " >Pioneering Safe Intimate Care for Melanin-Rich Skin</h1>
  <p className="lg:text-xl  ml-4  ">
@@ -20,7 +22,7 @@ export const AboutUsPage = () => {
  <section className="py-20 bg-white">
  <div className="container mx-auto lg:px-6">
  <div className="grid grid-cols-1 md:grid-cols-2 gap-16">
- <div className=''>
+ <div className='mt-[20vh]'>
  <h2 className="text-3xl font-light mb-8">Our Journey</h2>
  <p className="text-lg text-neutral-600 mb-6">
  The development of Mia Peel represents a breakthrough in intimate skincare for melanin-rich skin. Our international team of specialists recognized a critical gap in the market: the absence of safe, effective intimate lightening treatments specifically formulated for darker skin tones.
@@ -31,9 +33,9 @@ export const AboutUsPage = () => {
  </div>
  <div className="bg-neutral-50 lg:p-8 sm:p-2">
  <img
- src=""
+ src={lab}
  alt="Laboratory research team"
- className="w-full h-auto mb-4"
+ className="w-full mb-4 h-[70vh]"
  />
  <p className="text-sm text-neutral-500">
  Our research facility where the breakthrough formula was developed
@@ -120,7 +122,7 @@ export const AboutUsPage = () => {
  </section>
 
  {/* Research Process */}
- <section className="py-10 bg-neutral-50">
+ <section className="py-10 bg-white">
  <div className="container mx-auto lg:px-6">
 
  <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
@@ -141,9 +143,9 @@ export const AboutUsPage = () => {
  </div>
  <div className="bg-white lg:p-8">
  <img
- src=""
+ src="https://media.licdn.com/dms/image/D4E12AQFo1e5AquG6lw/article-cover_image-shrink_720_1280/0/1695743592292?e=2147483647&v=beta&t=yBpkmLp_CZnu0TuVrfjEcTNG2yZTD-Z55NiqG8Kcpnw"
  alt="Research timeline"
- className="w-full h-auto opacity-70"
+ className="w-full h-[70vh]"
  />
  </div>
  </div>
@@ -171,7 +173,7 @@ export const AboutUsPage = () => {
 
  </div>
  </div>
- <div className="bg-neutral-50 container mx-auto lg:px-6 grid grid-cols-1 md:grid-cols-2 gap-16 p-8">
+ <div className="bg-white container mx-auto lg:px-6 grid grid-cols-1 md:grid-cols-2 gap-16 p-8">
  <div className='mt-[15vh]'>
  <h2 className="text-3xl font-light mb-8">Clinical Validation</h2>
   <ul className="text-lg text-neutral-600 list-disc">

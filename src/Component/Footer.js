@@ -13,16 +13,16 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 lg:w-[80%] ">
           {/* Customer Service */}
           <div>
-          <img
+          {/* <img
  src={mia}
  alt="mia"
  className="w-[30vh] "
- />
-  <ul className="text-lg w-[30vh] ">
+ /> */}
+  {/* <ul className="text-lg w-[30vh] ">
  <li>Email : info@miapeel.co</li>
  <li>Instagram : @_miapeel</li>
  <li>Contact No: 074982276752</li>
-  </ul>
+  </ul> */}
           </div>
 
           {/* Company */}

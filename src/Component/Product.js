@@ -1,5 +1,5 @@
 import React from 'react';
-import peel from '../images/peel.jpg'
+import peel from '../images/swatch.jpg'
 
 const IngredientsSection = () => {
   const ingredients = [
@@ -37,10 +37,10 @@ const IngredientsSection = () => {
     <div className=" py-4 ">
          <section className="relative mb-8 flex bg-fixed h-screen " >
 
- <div className="container  p-6 w-[30%] m-auto  rounded-lg     ml-12 ">
+ <div className="container  p-6 w-[50%] m-auto  rounded-lg     ml-12 ">
  
- <h1 className="text-5xl font-bold   p-4  " >Our Product</h1>
-
+ <h1 className="text-4xl md:text-5xl font-light mb-6 leading-tight " >Professional Grade Hyperpigmentation Treatment</h1>
+<p></p>
  </div>
  <div className="w-[60%]  p-8">
  <img
@@ -58,9 +58,9 @@ const IngredientsSection = () => {
             The Science of Skin Transformation
           </h2>
           
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-12 max-w-6xl mx-auto">
-            <div className="text-sm leading-relaxed">
-              <p className="mb-4">Our formulations represent the convergence of biotechnology and skincare innovation. Each ingredient is selected based on peer-reviewed research and clinical efficacy data.</p>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-12 max-w-6xl mx-auto ">
+            <div className="text-sm leading-relaxed ">
+              <p className="mb-4 ">Our formulations represent the convergence of biotechnology and skincare innovation. Each ingredient is selected based on peer-reviewed research and clinical efficacy data.</p>
             </div>
             
             <div className="text-sm leading-relaxed">

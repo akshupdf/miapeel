@@ -1,11 +1,11 @@
 import React from 'react';
 import { ChevronRight, CircleDot, Shield, Users, Search, Star } from 'lucide-react';
 import peel from "../images/peel.mp4";
-import { Link } from 'react-router-dom';
+import { Link } from 'react-scroll';
 
-export default function Home() {
+export const Home = () =>  {
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-white" name="home">
       {/* Hero Section */}
       <section className="h-screen relative">
         <video
