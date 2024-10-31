@@ -4,7 +4,7 @@ import {
 import './App.css';
 import { Home} from './Component/Home';
 import Navbar from './Component/navbar';
-import About from "./Component/About";
+import About from "./Component/About2";
 import { AboutUsPage } from "./Component/Aboutus";
 import CaseStudy from "./Component/CaseStudy";
 import ContactUs from "./Component/Contact";

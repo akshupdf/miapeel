@@ -1,5 +1,5 @@
 import React from 'react';
-import {  CircleDot, Star } from 'lucide-react';
+import {  CircleDot, Star ,ChevronDown } from 'lucide-react';
 import lab2 from "../images/lab.jpg"
 
 const SciencePage = () => {

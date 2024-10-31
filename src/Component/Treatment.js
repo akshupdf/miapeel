@@ -19,7 +19,9 @@ export default function TreatmentReports() {
           skinGoal: "Fade pigmentation",
           duration: "2 months",
           image: c1,
-          name: "sandra"
+          name: "sandra",
+          testimonial: "I had tried numerous products before, but Mia Peel was the first treatment that actually showed real results. The improvement in my skin tone is remarkable."
+
         },
         {
           id: "Client 002",
@@ -32,7 +34,9 @@ export default function TreatmentReports() {
           skinGoal: "Fade pigmentation",
           duration: "4 months",
           image: c2,
-          name:"Shoghana"
+          name:"Shoghana",
+          testimonial: "The difference in my skin's texture and tone is incredible. I appreciate how the treatment was tailored to my specific needs."
+
         },
         {
           id: "Client 003",
@@ -45,7 +49,9 @@ export default function TreatmentReports() {
           skinGoal: "Fade pigmentation",
           duration: "3 months",
           image: c3,
-          name: "Anna"
+          name: "Anna",
+          testimonial: "As someone with sensitive skin, I was initially hesitant. The careful approach and amazing results exceeded my expectations."
+
         },
         {
             id: "Client 004",
@@ -58,7 +64,9 @@ export default function TreatmentReports() {
             skinGoal: "Fade pigmentation",
             duration: "1 month",
             image: c4, 
-            name :"Anna"
+            name :"Anna",
+            testimonial: "I was surprised by how quickly I saw results! After just one month, the pigmentation on my arm has faded significantly. The treatment process was comfortable, and the aftercare was easy to manage. Highly recommend!"
+
           }
       ];
 
@@ -91,6 +99,9 @@ export default function TreatmentReports() {
                 </div>
               </div>
             </div>
+            <div className="p-6">
+      <p className="text-neutral-600 italic">"{client.testimonial}"</p>
+    </div>
           </div>
         </div>
       ))}

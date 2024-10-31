@@ -70,13 +70,13 @@ const ContactPage = () => {
               <p className="text-neutral-600 mb-4">
                 Customer Support:
                 <br />
-                +44 (0) 20 XXXX XXXX
+                07498276752
               </p>
-              <p className="text-neutral-600">
+              {/* <p className="text-neutral-600">
                 Professional Line:
                 <br />
                 +44 (0) 20 XXXX XXXX
-              </p>
+              </p> */}
             </div>
             <div className="bg-neutral-50 p-8">
               <Clock className="h-6 w-6 mb-4" />

@@ -24,14 +24,15 @@ export default function Navbar() {
 
       {/* Desktop Menu */}
       <ul className="hidden md:flex space-x-4 text-[16px] font-[200] font-sen cursor-pointer">
-        <li><Link to="/">Home</Link></li>
-        <li><Link to="/products">Product</Link></li>
-        <li><Link to="/about2">About Us</Link></li>
-        <li><Link to="/case">Case Studies</Link></li>
-        <li><Link to="/faq">FAQ</Link></li>
+        <li className='mr-2'><Link to="/">Home</Link></li>
+        <li className='mr-2'><Link to="/about2">About Us</Link></li>
+        <li className='ml-2'><Link to="/products">Product</Link></li>
+     
+        <li className='ml-2'><Link to="/case">Case Studies</Link></li>
+        <li className='ml-2'><Link to="/faq">FAQ</Link></li>
         {/* <li><Link to="/safety">Safety & Ethics</Link></li> */}
-        <li><Link to="/training">Training</Link></li>
-        <li><Link to="/contact">Contact Us</Link></li>
+        <li className='ml-2'><Link to="/training">Training</Link></li>
+        <li className='ml-2'><Link to="/contact">Contact Us</Link></li>
       </ul>
 
       {/* Hamburger Icon */}

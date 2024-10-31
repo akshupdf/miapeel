@@ -1,5 +1,5 @@
 import React from 'react';
-import { Clock, Users, CircleDot, Globe } from 'lucide-react';
+import { Clock, Users, CircleDot, Globe ,ChevronDown } from 'lucide-react';
 import skin from "../images/skin.jpg"
 import lab from "../images/office.jpg"
 
@@ -21,7 +21,7 @@ export const AboutUsPage = () => {
  </section>
 
  {/* Development Journey */}
- <section className="lg:py-20 sm:py-2 bg-white">
+ {/* <section className="lg:py-20 sm:py-2 bg-white">
  <div className="lg:container sm:p-4 mx-auto lg:px-6">
  <div className="grid grid-cols-1 md:grid-cols-2 gap-16">
  <div className='lg:mt-[20vh] sm:mt-8'>
@@ -45,7 +45,30 @@ export const AboutUsPage = () => {
  </div>
  </div>
  </div>
- </section>
+ </section> */}
+  <section className="lg:py-20 lg:container sm:py-2 flex bg-white">
+ <div className=" sm:p-4 mx-auto w-[60%] ">
+          <h1 className="text-5xl font-light mb-6 max-w-3xl">
+          Developed by Global Leaders in Ethnic Skincare
+          </h1>
+          <p className="text-lg text-neutral-600 mb-6">
+          Our groundbreaking formula is the result of collaboration between international dermatologists, biochemists, and skincare specialists focusing exclusively on melanin-rich skin concerns.
+          </p>
+ <p className="text-lg text-neutral-600">
+ Led by renowned specialists in ethnic dermatology from London, New York, and Lagos, our team brings together decades of expertise in treating diverse skin types. </p>
+          {/* <ChevronDown className="h-6 w-6 text-neutral-600" /> */}
+        </div>
+        <div className="bg-neutral-50 lg:p-8 sm:p-2 w-[40%]">
+ <img
+ src={lab}
+ alt="Laboratory research team"
+ className="w-full mb-4 h-[70vh]"
+ />
+ <p className="text-sm text-neutral-500">
+ Our research facility where the breakthrough formula was developed
+ </p>
+ </div>
+      </section>
 
  {/* Key Statistics */}
  <section className="py-16 bg-neutral-50">
