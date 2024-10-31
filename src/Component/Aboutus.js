@@ -7,7 +7,7 @@ import SciencePage from './Science';
 
 export const AboutUsPage = () => {
  return (
- <div className="min-h-screen bg-white pt-16" name="about">
+ <div className="min-h-screen bg-white " name="about">
  {/* Hero Section */}
  <section className="relative h-[100vh] bg-no-repeat bg-cover" style={{backgroundImage : `url(${skin})`}} >
   <div className="absolute inset-0 bg-black opacity-20"></div>
@@ -46,19 +46,19 @@ export const AboutUsPage = () => {
  </div>
  </div>
  </section> */}
-  <section className="lg:py-20 lg:container sm:py-2 flex bg-white">
- <div className=" sm:p-4 mx-auto w-[60%] ">
-          <h1 className="text-5xl font-light mb-6 max-w-3xl">
+  <section className="lg:py-20 mx-auto sm:py-2 flex lg:flex-row sm:flex-col lg:px-6 sm:px-2 bg-white">
+ <div className=" sm:p-4 mx-auto lg:w-[60%] lg:mt-[15vh] ">
+          <h1 className="lg:text-5xl sm:text-2xl font-light mb-6 max-w-3xl">
           Developed by Global Leaders in Ethnic Skincare
           </h1>
-          <p className="text-lg text-neutral-600 mb-6">
+          <p className="text-lg  text-neutral-600 mb-6">
           Our groundbreaking formula is the result of collaboration between international dermatologists, biochemists, and skincare specialists focusing exclusively on melanin-rich skin concerns.
           </p>
  <p className="text-lg text-neutral-600">
  Led by renowned specialists in ethnic dermatology from London, New York, and Lagos, our team brings together decades of expertise in treating diverse skin types. </p>
           {/* <ChevronDown className="h-6 w-6 text-neutral-600" /> */}
         </div>
-        <div className="bg-neutral-50 lg:p-8 sm:p-2 w-[40%]">
+        <div className="bg-neutral-50 lg:p-8 sm:p-2 lg:w-[40%]">
  <img
  src={lab}
  alt="Laboratory research team"
