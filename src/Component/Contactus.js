@@ -8,7 +8,7 @@ const ContactPage = () => {
   const generateMailtoLink = (name, company, email, phone, message) => {
     const subject = encodeURIComponent("Contact Form Submission");
     const body = encodeURIComponent(`Name: ${name}\nCompany: ${company}\nEmail: ${email}\nPhone: ${phone}\nMessage: ${message}`);
-    return `mailto:${email}?subject=${subject}&body=${body}`;
+    return `mailto:Info@miapeel.co?subject=${subject}&body=${body}`;
 };
 
   // const [formData, setFormData] = useState({

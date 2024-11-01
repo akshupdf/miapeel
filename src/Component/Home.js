@@ -26,7 +26,7 @@ export const Home = () =>  {
       A revolutionary approach to intimate skincare, backed by dermatological research.
     </p>
     <button className="bg-neutral-900 hover:bg0 text-white px-6 md:px-8 py-3 md:py-4 rounded-none hover:bg-neutral-800 transition">
-      <a href="https://melaclinic.co/" target='_blank' className="">Find a Clinic Near You</a>
+      <a href="https://melaclinic.co/" target='_blank' className="">Book Now</a>
     </button>
   </div>
 </section>
