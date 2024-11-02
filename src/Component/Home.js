@@ -1,6 +1,6 @@
 import React from 'react';
 import { ChevronRight, CircleDot, Shield, Users, Search, Star } from 'lucide-react';
-import peel from "../images/try.mp4";
+import peel from "../images/try1.mp4";
 import { Link } from 'react-router-dom';
 
 export const Home = () =>  {

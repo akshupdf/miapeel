@@ -1,6 +1,6 @@
 import React from 'react';
 import { Clock, Users, CircleDot, Globe ,ChevronDown } from 'lucide-react';
-import skin from "../images/skin.jpg"
+import skin from "../images/test1.jpg"
 import lab from "../images/office.jpg"
 
 import SciencePage from './Science';
