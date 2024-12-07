@@ -1,5 +1,5 @@
 import React from 'react';
-import { Shield, Check, AlertCircle, Star } from 'lucide-react';
+import { Shield, Star } from 'lucide-react';
 import peel from '../images/swatch.jpg'
 
 const ProductPage = () => {

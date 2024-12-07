@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import mia from "../images/mia.png";
+// import mia from "../images/mia.png";
 
 const Footer = () => {
   return (
@@ -32,6 +32,7 @@ const Footer = () => {
             {/* <li className="text-gray-600 hover:text-gray-800"><Link to="/">Home</Link></li> */}
         <li className="text-gray-600 hover:text-gray-800"><Link to="/about2">About Us</Link></li>
         <li className="text-gray-600 hover:text-gray-800"><Link to="/case">Case Studies</Link></li>
+        <li className="text-gray-600 hover:text-gray-800"><Link to="/privacy">Privacy Policy</Link></li>
         {/* <li className="text-gray-600 hover:text-gray-800"><Link to="/safety">Safety & Ethics</Link></li>
         <li className="text-gray-600 hover:text-gray-800"><Link to="/training">Training Program</Link></li> */}
         <li className="text-gray-600 hover:text-gray-800"><Link to="/contact">Contact Us</Link></li>

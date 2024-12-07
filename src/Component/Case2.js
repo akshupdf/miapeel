@@ -2,79 +2,79 @@ import React from 'react';
 import { Star, Clock, Check, ChevronRight } from 'lucide-react';
 import TreatmentReports from './Treatment';
 
-const CaseStudyCard = ({ title, age, skinType, sessions, description, testimonial }) => (
-  <div className="bg-white p-8 shadow-sm">
-    <h3 className="text-xl font-medium mb-4">{title}</h3>
-    <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
-      <div>
-        <img 
-          src="/api/placeholder/400/300" 
-          alt="Before treatment" 
-          className="w-full h-auto mb-2"
-        />
-        <p className="text-sm text-neutral-500">Before Treatment</p>
-      </div>
-      <div>
-        <img 
-          src="/api/placeholder/400/300" 
-          alt="After treatment" 
-          className="w-full h-auto mb-2"
-        />
-        <p className="text-sm text-neutral-500">After 6 Sessions</p>
-      </div>
-    </div>
-    <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
-      <div>
-        <p className="text-sm text-neutral-500">Age</p>
-        <p className="font-medium">{age}</p>
-      </div>
-      <div>
-        <p className="text-sm text-neutral-500">Skin Type</p>
-        <p className="font-medium">{skinType}</p>
-      </div>
-      <div>
-        <p className="text-sm text-neutral-500">Sessions</p>
-        <p className="font-medium">{sessions}</p>
-      </div>
-      <div>
-        <p className="text-sm text-neutral-500">Duration</p>
-        <p className="font-medium">12 weeks</p>
-      </div>
-    </div>
-    <p className="text-neutral-600 mb-6">{description}</p>
-    <div className="bg-neutral-50 p-6">
-      <p className="text-neutral-600 italic">"{testimonial}"</p>
-    </div>
-  </div>
-);
+// const CaseStudyCard = ({ title, age, skinType, sessions, description, testimonial }) => (
+//   <div className="bg-white p-8 shadow-sm">
+//     <h3 className="text-xl font-medium mb-4">{title}</h3>
+//     <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
+//       <div>
+//         <img 
+//           src="/api/placeholder/400/300" 
+//           alt="Before treatment" 
+//           className="w-full h-auto mb-2"
+//         />
+//         <p className="text-sm text-neutral-500">Before Treatment</p>
+//       </div>
+//       <div>
+//         <img 
+//           src="/api/placeholder/400/300" 
+//           alt="After treatment" 
+//           className="w-full h-auto mb-2"
+//         />
+//         <p className="text-sm text-neutral-500">After 6 Sessions</p>
+//       </div>
+//     </div>
+//     <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
+//       <div>
+//         <p className="text-sm text-neutral-500">Age</p>
+//         <p className="font-medium">{age}</p>
+//       </div>
+//       <div>
+//         <p className="text-sm text-neutral-500">Skin Type</p>
+//         <p className="font-medium">{skinType}</p>
+//       </div>
+//       <div>
+//         <p className="text-sm text-neutral-500">Sessions</p>
+//         <p className="font-medium">{sessions}</p>
+//       </div>
+//       <div>
+//         <p className="text-sm text-neutral-500">Duration</p>
+//         <p className="font-medium">12 weeks</p>
+//       </div>
+//     </div>
+//     <p className="text-neutral-600 mb-6">{description}</p>
+//     <div className="bg-neutral-50 p-6">
+//       <p className="text-neutral-600 italic">"{testimonial}"</p>
+//     </div>
+//   </div>
+// );
 
 const CaseStudiesPage = () => {
-  const caseStudies = [
-    {
-      title: "Case Study 1: Significant Improvement in Skin Tone Evenness",
-      age: "28",
-      skinType: "Type V",
-      sessions: "6",
-      description: "Client presented with uneven skin tone in intimate areas. Treatment plan included 6 sessions of Mia Peel treatments spaced 2 weeks apart. Significant improvement was noted after the fourth session, with optimal results achieved after completing all sessions.",
-      testimonial: "I had tried numerous products before, but Mia Peel was the first treatment that actually showed real results. The improvement in my skin tone is remarkable."
-    },
-    {
-      title: "Case Study 2: Enhanced Skin Texture and Tone",
-      age: "35",
-      skinType: "Type IV",
-      sessions: "5",
-      description: "Client sought treatment for both texture and tone concerns. A customized treatment protocol was developed, resulting in visible improvements after 3 sessions. Final results showed significant enhancement in both skin texture and evenness.",
-      testimonial: "The difference in my skin's texture and tone is incredible. I appreciate how the treatment was tailored to my specific needs."
-    },
-    {
-      title: "Case Study 3: Optimal Results for Sensitive Skin",
-      age: "31",
-      skinType: "Type VI",
-      sessions: "6",
-      description: "Client with sensitive skin required a modified approach. Treatment intervals were adjusted to 3 weeks, with specialized pre and post-care protocols. Results demonstrated the treatment's effectiveness even for sensitive skin types.",
-      testimonial: "As someone with sensitive skin, I was initially hesitant. The careful approach and amazing results exceeded my expectations."
-    }
-  ];
+  // const caseStudies = [
+  //   {
+  //     title: "Case Study 1: Significant Improvement in Skin Tone Evenness",
+  //     age: "28",
+  //     skinType: "Type V",
+  //     sessions: "6",
+  //     description: "Client presented with uneven skin tone in intimate areas. Treatment plan included 6 sessions of Mia Peel treatments spaced 2 weeks apart. Significant improvement was noted after the fourth session, with optimal results achieved after completing all sessions.",
+  //     testimonial: "I had tried numerous products before, but Mia Peel was the first treatment that actually showed real results. The improvement in my skin tone is remarkable."
+  //   },
+  //   {
+  //     title: "Case Study 2: Enhanced Skin Texture and Tone",
+  //     age: "35",
+  //     skinType: "Type IV",
+  //     sessions: "5",
+  //     description: "Client sought treatment for both texture and tone concerns. A customized treatment protocol was developed, resulting in visible improvements after 3 sessions. Final results showed significant enhancement in both skin texture and evenness.",
+  //     testimonial: "The difference in my skin's texture and tone is incredible. I appreciate how the treatment was tailored to my specific needs."
+  //   },
+  //   {
+  //     title: "Case Study 3: Optimal Results for Sensitive Skin",
+  //     age: "31",
+  //     skinType: "Type VI",
+  //     sessions: "6",
+  //     description: "Client with sensitive skin required a modified approach. Treatment intervals were adjusted to 3 weeks, with specialized pre and post-care protocols. Results demonstrated the treatment's effectiveness even for sensitive skin types.",
+  //     testimonial: "As someone with sensitive skin, I was initially hesitant. The careful approach and amazing results exceeded my expectations."
+  //   }
+  // ];
 
   return (
     <div className="min-h-screen bg-neutral-50 pt-[10vh]" name="case">

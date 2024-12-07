@@ -26,7 +26,7 @@ export const Home = () =>  {
       A revolutionary approach to intimate skincare, backed by dermatological research.
     </p>
     <button className="bg-neutral-900 hover:bg0 text-white px-6 md:px-8 py-3 md:py-4 rounded-none hover:bg-neutral-800 transition">
-      <a href="https://melaclinic.co/pages/book" target='_blank' className="">Book Now</a>
+      <a href="https://melaclinic.co/pages/book" target='_blank' rel="noreferrer" className="">Book Now</a>
     </button>
   </div>
 </section>
@@ -92,7 +92,7 @@ export const Home = () =>  {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="flex items-center space-x-4 cursor-pointer hover:text-neutral-600">
               <Search className="h-6 w-6" />
-              <span> <a href="https://melaclinic.co/" target='_blank' className=" "> Find a Clinic</a></span>
+              <span> <a href="https://melaclinic.co/" target='_blank' rel="noreferrer" className=" "> Find a Clinic</a></span>
             </div>
             <div className="flex items-center space-x-4 cursor-pointer hover:text-neutral-600">
               <Users className="h-6 w-6" />
